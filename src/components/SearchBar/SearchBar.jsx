@@ -14,7 +14,7 @@ class SearchBar extends React.Component {
 
   render() {
     return (
-      <div className="ui sticky segment">
+      <div className="ui  segment">
         <form className="ui form" onSubmit={this.onFormSubmit}>
           <div className="field">
             <label htmlFor="image-search">Videos Search</label>
